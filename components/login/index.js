@@ -18,7 +18,7 @@ class Login extends React.Component {
     return (
       <Container style={styles.container} >
 
-        <Content keyboardShouldPersistTaps="always" style={{ backgroundColor: '#e64a19' }}>
+        <Content keyboardShouldPersistTaps="always" style={{ backgroundColor: '#673AB7' }}>
               <View style={styles.bg}>
                 <View style={{ flexGrow: 1, paddingBottom:10 }}>
                   <Item underline style={{ borderBottomWidth:(Platform.OS === 'ios') ? 0.5 : 1 }}>
@@ -59,7 +59,7 @@ class Login extends React.Component {
                   // Remove name lucy
                   onPress={() => this.props.navigation.navigate('AppNavigator', {name: 'Lucy'})}
                 >
-                  <Text style={{ color: '#d84315' }}>Log In</Text>
+                  <Text style={{ color: '#673AB7' }}>Log In</Text>
                 </Button>
 
                 <Button

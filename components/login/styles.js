@@ -22,7 +22,7 @@ export default {
     flex: 1,
     marginTop: deviceHeight / 2 - 15,
     // backgroundColor: '#00b8d4',
-    backgroundColor: '#e64a19',
+    backgroundColor: '#673AB7',
     paddingTop: 10,
     paddingLeft: 20,
     paddingRight: 20,
